@@ -5,11 +5,10 @@ const About: React.FC = () => {
     <div id="sobre" className="bg-gray-50 pt-16 flex flex-col items-center justify-center p-8">
       <h2 className="text-3xl font-bold mb-4">Sobre Mim</h2>
 
-      <p className="text-lg text-center">
-        FullStack Developer passionate about technological innovation, with a continuous focus on scalable solutions and high performance. Committed to continuous learning and skill improvement, I bring a proactive, results-oriented approach, with strong analytical abilities and effective communication skills. A specialist in collaborative work, solving complex challenges, and enhancing the end-user experience. I am always looking for opportunities to contribute to impactful projects, driving the success of teams and organizations through cutting-edge technology.
+      <p className="text-lg text-center">Desenvolvedor FullStack apaixonado por inovação tecnológica, com foco contínuo em soluções escaláveis ​​e de alta performance. Comprometido com o aprendizado contínuo e o aprimoramento de habilidades, trago uma abordagem proativa e orientada para resultados, com fortes habilidades analíticas e habilidades de comunicação eficazes. Especialista em trabalho colaborativo, resolvendo desafios complexos e aprimorando a experiência do usuário final. Estou sempre em busca de oportunidades para contribuir com projetos impactantes, impulsionando o sucesso de equipes e organizações através de tecnologia de ponta.
       </p>
 
-      <div className="flex justify-between w-full max-w-4xl">
+      <div className="flex justify-between w-full max-w-4xl mt-4">
         <div className="mr-4">
           <h3 className="text-xl font-semibold mb-2">Idiomas</h3>
           <ul className="list-disc list-inside mb-4">
