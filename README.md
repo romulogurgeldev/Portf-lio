@@ -43,7 +43,7 @@ Para executar este projeto localmente, siga os passos abaixo:
    ```
 
 ## Uso
-Acesse o portfólio em [https://meu-portfolio-84kv6s7m4-trezeabts-projects.vercel.app](https://meu-portfolio-84kv6s7m4-trezeabts-projects.vercel.app) para visualizar.
+Acesse o portfólio em [https://meu-portfolio-en7k1t4eb-trezeabts-projects.vercel.app/](https://meu-portfolio-en7k1t4eb-trezeabts-projects.vercel.app/) para visualizar.
 
 ## Contribuição
 Se você deseja contribuir, sinta-se à vontade para abrir uma issue ou enviar um pull request.
