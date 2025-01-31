@@ -6,7 +6,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Hero: React.FC = () => {
   return (
     <div id="hero" className="flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 h-screen">
-      <img src="/assets/photo.png" alt="Descrição da imagem" className="w-1/6 h-auto max-w-xs rounded-full shadow-lg" />
+      <img src="/assets/photo.png" alt="Descrição da imagem" className="w-1/6 h-auto max-w-xs rounded-full shadow-lg mt-10" />
       <h1 className="text-5xl font-extrabold text-white mt-4">Rômulo Régis Gurgel</h1>
       <h2 className="text-3xl font-semibold pt-5 text-white">Desenvolvedor FullStack Jr</h2>
       <p className="text-center mt-2 text-lg text-white">Apaixonado por inovação tecnológica.</p>
