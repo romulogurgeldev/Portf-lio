@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills: React.FC = () => {
   return (
-    <div id="skills" className="flex flex-col items-center justify-center p-8 bg-gray-50">
+    <div id="skills" className="flex flex-col text-white items-center justify-center p-8 bg-gradient-to-r from-blue-500 to-purple-500 pt-15 h-screen">
       <h2 className="text-3xl font-bold mb-4">Habilidades</h2>
       <div className="flex justify-between w-full max-w-4xl">
         <div className="mr-4">

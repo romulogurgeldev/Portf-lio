@@ -7,24 +7,24 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ setActiveSection }) => {
   return (
-    <nav className="bg-gray-100 p-4">
+    <nav className="bg-gradient-to-r drop-shadow-md from-blue-500 to-purple-500 p-4 w-full shadow-lg">
       <div className="flex justify-between">
-        <div className="font-bold text-lg">Rômulo Régis Gurgel</div>
+        <div className="text-white font-bold text-lg transition-transform duration-300 hover:scale-110">Rômulo Régis Gurgel</div>
         <div className="space-x-4">
           <Link href="/#hero">
-            <button onClick={() => setActiveSection('hero')} className=" hover:underline">Início</button>
+            <button onClick={() => setActiveSection('hero')} className="text-white hover:underline transition-transform duration-300 hover:scale-110">Início</button>
           </Link>
           <Link href="/#about">
-            <button onClick={() => setActiveSection('about')} className=" hover:underline">Sobre Mim</button>
+            <button onClick={() => setActiveSection('about')} className="text-white hover:underline transition-transform duration-300 hover:scale-110">Sobre Mim</button>
           </Link>
           <Link href="/#skills">
-            <button onClick={() => setActiveSection('skills')} className=" hover:underline">Habilidades</button>
+            <button onClick={() => setActiveSection('skills')} className="text-white hover:underline transition-transform duration-300 hover:scale-110">Habilidades</button>
           </Link>
           <Link href="/#projects">
-            <button onClick={() => setActiveSection('projects')} className=" hover:underline">Projetos</button>
+            <button onClick={() => setActiveSection('projects')} className="text-white hover:underline transition-transform duration-300 hover:scale-110">Projetos</button>
           </Link>
           <Link href="/#contact">
-            <button onClick={() => setActiveSection('contact')} className=" hover:underline">Contato</button>
+            <button onClick={() => setActiveSection('contact')} className="text-white hover:underline transition-transform duration-300 hover:scale-110">Contato</button>
           </Link>
         </div>
       </div>
