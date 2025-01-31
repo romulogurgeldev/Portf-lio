@@ -2,23 +2,12 @@ import React from 'react';
 
 const Contact: React.FC = () => {
   return (
-    <div id="contact" className="flex flex-col items-center justify-center p-8 bg-gray-50">
+    <div id="contact" className="bg-gray-50 pt-16 flex flex-col items-center justify-center p-8">
       <h2 className="text-3xl font-bold mb-4">Contato</h2>
-      <form className="w-full max-w-md">
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-            Nome
-          </label>
-          <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Seu Nome" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-            Email
-          </label>
-          <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Seu Email" />
-        </div>
-        {/* Adicione mais campos de formulário conforme necessário */}
-      </form>
+      <div className="mt-4">
+        <p className="text-lg">GitHub: <a href="https://github.com/romulogurgeldev" className="text-blue-500">https://github.com/romulogurgeldev</a></p>
+        <p className="text-lg">E-mail: <a href="mailto:rgurgel.romulo@gmail.com" className="text-blue-500">rgurgel.romulo@gmail.com</a></p>
+      </div>
     </div>
   );
 };

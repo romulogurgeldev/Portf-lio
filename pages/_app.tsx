@@ -11,7 +11,7 @@ interface MyAppProps<P extends PageProps> {
 }
 
 function MyApp<P extends PageProps>({ Component, pageProps }: MyAppProps<P>) {
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} />
 }
 
 export default MyApp;

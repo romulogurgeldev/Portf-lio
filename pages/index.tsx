@@ -14,13 +14,13 @@ export default function Home() {
     switch (activeSection) {
       case 'about':
         return <About />;
-      case 'habilidades':
+      case 'skills':
         return <Skills />;
-      case 'projetos':
+      case 'projects':
         return <Projects />;
       case 'blog':
         return <Blog />;
-      case 'contato':
+      case 'contact':
         return <Contact />;
       default:
         return <Hero />;
