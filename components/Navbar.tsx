@@ -8,7 +8,7 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ setActiveSection }) => {
   return (
     <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between">
+      <div className="flex justify-between">
         <div className="text-white font-bold text-lg">Rômulo Régis Gurgel</div>
         <div className="space-x-4">
           <Link href="/#hero">
